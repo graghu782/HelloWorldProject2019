@@ -11,8 +11,8 @@ public class Player : KinematicBody2D
     // Called when the node enters the scene tree for the first time.
     public override void _Ready()
     {
-        var arrow = ResourceLoader.Load("res://Sprites/arrow.png");
-        Input.SetCustomMouseCursor(arrow);
+        // var arrow = ResourceLoader.Load("res://Sprites/59595-200.png");
+	    // Input.SetCustomMouseCursor(arrow);
     }
 
     //  // Called every frame. 'delta' is the elapsed time since the previous frame.

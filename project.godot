@@ -19,6 +19,12 @@ config/name="HelloWorldProject2019"
 run/main_scene="res://Scenes/Main.tscn"
 config/icon="res://Sprites/icon.png"
 
+[display]
+
+mouse_cursor/custom_image="res://Sprites/59595-200.png"
+mouse_cursor/custom_image_hotspot=Vector2( 37.5, 37.5 )
+mouse_cursor/tooltip_position_offset=Vector2( 37.5, 37.5 )
+
 [input]
 
 ui_left={
