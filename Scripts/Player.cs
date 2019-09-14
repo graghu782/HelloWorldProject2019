@@ -29,5 +29,7 @@ if (Input.IsActionPressed("ui_right")){
 if (Input.IsActionPressed("ui_left")){
 	MoveLocalX(SPEED*delta);
  }
+//GetViewport().GetMousePosition();
+//GetTransform().Get
 }
 }
