@@ -4,3 +4,9 @@
 /Users/jorgeribeiro/Desktop/GAME/HelloWorldProject2019/.mono/temp/bin/Tools/HelloWorldProject2019.pdb
 /Users/jorgeribeiro/Desktop/GAME/HelloWorldProject2019/.mono/temp/obj/Tools/HelloWorldProject2019.dll
 /Users/jorgeribeiro/Desktop/GAME/HelloWorldProject2019/.mono/temp/obj/Tools/HelloWorldProject2019.pdb
+/Users/graghu/Purdue/HellWorldHackathon/HelloWorldProject2019/.mono/temp/bin/Tools/HelloWorldProject2019.dll
+/Users/graghu/Purdue/HellWorldHackathon/HelloWorldProject2019/.mono/temp/bin/Tools/HelloWorldProject2019.pdb
+/Users/graghu/Purdue/HellWorldHackathon/HelloWorldProject2019/.mono/temp/obj/Tools/HelloWorldProject2019.csprojAssemblyReference.cache
+/Users/graghu/Purdue/HellWorldHackathon/HelloWorldProject2019/.mono/temp/obj/Tools/HelloWorldProject2019.csproj.CoreCompileInputs.cache
+/Users/graghu/Purdue/HellWorldHackathon/HelloWorldProject2019/.mono/temp/obj/Tools/HelloWorldProject2019.dll
+/Users/graghu/Purdue/HellWorldHackathon/HelloWorldProject2019/.mono/temp/obj/Tools/HelloWorldProject2019.pdb
