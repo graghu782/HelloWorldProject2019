@@ -1,20 +1,33 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Scripts/Player.cs" type="Script" id=1]
-[ext_resource path="res://icon.png" type="Texture" id=2]
-[ext_resource path="res://download.jpg" type="Texture" id=3]
+[ext_resource path="res://Scenes/Enemy.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/Player.cs" type="Script" id=2]
+[ext_resource path="res://Sprites/icon.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/download.jpg" type="Texture" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 31.8013, 31.9275 )
 
 [node name="Main" type="Node2D"]
 
-[node name="Player" type="Area2D" parent="."]
+[node name="Enemy5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 706.467, 230.786 )
+
+[node name="Enemy4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 360.273, 416.718 )
+
+[node name="Enemy3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 328.062, 239.007 )
+
+[node name="Enemy2" parent="." instance=ExtResource( 1 )]
+position = Vector2( -13.2757, 224.438 )
+
+[node name="Player" type="KinematicBody2D" parent="."]
 position = Vector2( 517.882, 278.215 )
-script = ExtResource( 1 )
+script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="Player"]
-texture = ExtResource( 2 )
+texture = ExtResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
 shape = SubResource( 1 )
@@ -22,8 +35,11 @@ shape = SubResource( 1 )
 [node name="Camera2D" type="Camera2D" parent="Player"]
 current = true
 
-[node name="Sprite2" type="Sprite" parent="."]
-position = Vector2( 618.333, 568.776 )
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 834.288, 148.071 )
 scale = Vector2( 8.79626, 8.79626 )
 z_index = -1
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
+offset = Vector2( -24.5508, 47.8277 )
+
+[node name="Enemy" parent="." instance=ExtResource( 1 )]
